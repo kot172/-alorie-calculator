@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Калорийный трекер</title>
+  <link rel="stylesheet" href="./assest/index.css">
+</head>
+<body>
+  <h1>Калорийный трекер</h1>
+  
+  <div id="add-product">
+    <input type="text" id="product-name" placeholder="Название продукта">
+    <input type="number" id="calories" placeholder="Калории">
+    <button id="add-button">Добавить</button>
+  </div>
+  
+  <div id="daily-calories">
+    <h2>Съедено калорий сегодня: <span id="total-calories">0</span></h2>
+    <h2>Целевые калории на день: <span id="target-calories">2000</span></h2>
+  </div>
+  
+  <div id="product-list">
+    <input type="text" id="filter-input" placeholder="Фильтр по названию">
+    <button id="sort-button">Сортировать по калориям</button>
+    <ul id="products"></ul>
+  </div>
+  
+  <div id="chart">
+    <div id="chart-bar"></div>
+  </div>
+  
+  <button id="clear-button">Очистить данные</button>
+  
+  <script src="./js/puzzle.js"></script>
+  <script src="./js/chart.js"></script>
+  <script src="./js/localStorage.js"></script>
+  <script src="./js/main.js"></script>
+
+</body>
+</html>

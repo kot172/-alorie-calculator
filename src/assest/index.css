@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #add-product {
+    margin-bottom: 20px;
+  }
+  
+  #daily-calories {
+    margin-bottom: 20px;
+  }
+  
+  #product-list {
+    margin-bottom: 20px;
+  }
+  
+  #chart {
+    height: 15px;
+    margin-bottom: 20px;
+    position: relative;
+    background-color: gray;
+    border-radius: 6px;
+  }
+  
+  #chart-bar {
+    background-color:black;
+    border-radius: 6px;
+    height: 100%;
+    width: 0;
+    transition: width 0.5s ease-in-out;
+  }
+  
+  #clear-button {
+    display: block;
+    margin: 0 auto;
+  }
+  
