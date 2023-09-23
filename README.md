@@ -1,5 +1,5 @@
-
-[Поиграем?](https://kot172.github.io/calorie-calculator/)
+ 
+[Посчитать калории](https://kot172.github.io/calorie-calculator/)
 
 <h1>Калькулятор калорий</h1>
 
